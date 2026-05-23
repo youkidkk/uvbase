@@ -1,6 +1,5 @@
 {
   "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.rulers": [88],
     "editor.tabSize": 4
   },
@@ -12,7 +11,6 @@
   },
   "mypy-type-checker.args": ["--ignore-missing-imports"],
   "mypy-type-checker.path": ["${workspaceFolder}/.venv/Lib/site-packages"],
-  "python.analysis.completeFunctionParens": true,
   "python.analysis.extraPaths": ["{$workspaceFolder}/.venv/Lib/site-packages"],
   "python.autoComplete.extraPaths": [
     "{$workspaceFolder}/.venv/Lib/site-packages"
